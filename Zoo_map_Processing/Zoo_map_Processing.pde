@@ -7,7 +7,7 @@ import peasy.*;
 PImage Zoo;
 
 public void setup() {
-  size(800, 650, JAVA2D);
+  size(1000, 700, JAVA2D);
   createGUI();
   customGUI();
 
