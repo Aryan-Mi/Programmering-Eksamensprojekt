@@ -9,20 +9,19 @@ void getData () { //This function gets the data from the database, so it can be 
       db.close(); //Close the connection to the database
     }
   }
+}
+
+class Animals {
 
 
-
-  class Animals {
-
-
-    class Mammals extends Animals { //Pattedyr
-      String Navn;
-      String Videnskabeligt_navn;
-      int Levealder;
-      String Føde;
-      int ID;
-    }
-
-    class Birds extends Animals { //Fugle
-    }
+  class Mammals extends Animals { //Pattedyr
+    String Navn;
+    String Videnskabeligt_navn;
+    int Levealder;
+    String Foede;
+    int ID;
   }
+
+  class Birds extends Animals { //Fugle
+  }
+}
