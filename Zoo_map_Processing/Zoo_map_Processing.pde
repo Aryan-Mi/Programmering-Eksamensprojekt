@@ -22,4 +22,18 @@ public void draw() {
 // Use this method to add additional statements
 // to customise the GUI controls
 public void customGUI() {
+  Flamingo_win.setVisible(false); 
+  Stork_win.setVisible(false);
+  Flagermus_win.setVisible(false);
+  Isbjorn_win.setVisible(false);
+  Bjorn_win.setVisible(false);
+  Ulv_win.setVisible(false);
+  Love_win.setVisible(false);
+  Kamel_win.setVisible(false);
+  Panda_win.setVisible(false);
+  Bavian_win.setVisible(false);
+  Rensdyr_win.setVisible(false);
+  Sal_win.setVisible(false);
+  Gibbon_win.setVisible(false);
+  Lemur_win.setVisible(false);
 }
