@@ -70,6 +70,62 @@ public void button1_click14(GButton source, GEvent event) { //_CODE_:Stork:99202
   println("Stork - GButton >> GEvent." + event + " @ " + millis());
 } //_CODE_:Stork:992027:
 
+synchronized public void win_draw1(PApplet appc, GWinData data) { //_CODE_:Flamingo_win:639011:
+  appc.background(230);
+} //_CODE_:Flamingo_win:639011:
+
+synchronized public void win_draw2(PApplet appc, GWinData data) { //_CODE_:Stork_win:975140:
+  appc.background(230);
+} //_CODE_:Stork_win:975140:
+
+synchronized public void win_draw3(PApplet appc, GWinData data) { //_CODE_:Flagermus_win:612743:
+  appc.background(230);
+} //_CODE_:Flagermus_win:612743:
+
+synchronized public void win_draw4(PApplet appc, GWinData data) { //_CODE_:Isbjorn_win:744965:
+  appc.background(230);
+} //_CODE_:Isbjorn_win:744965:
+
+synchronized public void win_draw5(PApplet appc, GWinData data) { //_CODE_:Bjorn_win:642680:
+  appc.background(230);
+} //_CODE_:Bjorn_win:642680:
+
+synchronized public void win_draw6(PApplet appc, GWinData data) { //_CODE_:Ulv_win:210496:
+  appc.background(230);
+} //_CODE_:Ulv_win:210496:
+
+synchronized public void win_draw7(PApplet appc, GWinData data) { //_CODE_:Love_win:971803:
+  appc.background(230);
+} //_CODE_:Love_win:971803:
+
+synchronized public void win_draw8(PApplet appc, GWinData data) { //_CODE_:Kamel_win:419182:
+  appc.background(230);
+} //_CODE_:Kamel_win:419182:
+
+synchronized public void win_draw9(PApplet appc, GWinData data) { //_CODE_:Panda_win:825645:
+  appc.background(230);
+} //_CODE_:Panda_win:825645:
+
+synchronized public void win_draw10(PApplet appc, GWinData data) { //_CODE_:Bavian_win:251461:
+  appc.background(230);
+} //_CODE_:Bavian_win:251461:
+
+synchronized public void win_draw11(PApplet appc, GWinData data) { //_CODE_:Rensdyr_win:906374:
+  appc.background(230);
+} //_CODE_:Rensdyr_win:906374:
+
+synchronized public void win_draw12(PApplet appc, GWinData data) { //_CODE_:Sal_win:298617:
+  appc.background(230);
+} //_CODE_:Sal_win:298617:
+
+synchronized public void win_draw13(PApplet appc, GWinData data) { //_CODE_:Gibbon_win:498451:
+  appc.background(230);
+} //_CODE_:Gibbon_win:498451:
+
+synchronized public void win_draw14(PApplet appc, GWinData data) { //_CODE_:Lemur_win:986260:
+  appc.background(230);
+} //_CODE_:Lemur_win:986260:
+
 
 
 // Create all the GUI controls. 
@@ -121,6 +177,76 @@ public void createGUI(){
   Stork = new GButton(this, 857, 285, 50, 50);
   Stork.setText("Stork");
   Stork.addEventHandler(this, "button1_click14");
+  Flamingo_win = GWindow.getWindow(this, "Flamingo", 0, 0, 240, 120, JAVA2D);
+  Flamingo_win.noLoop();
+  Flamingo_win.setActionOnClose(G4P.KEEP_OPEN);
+  Flamingo_win.addDrawHandler(this, "win_draw1");
+  Stork_win = GWindow.getWindow(this, "Storken", 0, 0, 240, 120, JAVA2D);
+  Stork_win.noLoop();
+  Stork_win.setActionOnClose(G4P.KEEP_OPEN);
+  Stork_win.addDrawHandler(this, "win_draw2");
+  Flagermus_win = GWindow.getWindow(this, "Flagermusen", 0, 0, 240, 120, JAVA2D);
+  Flagermus_win.noLoop();
+  Flagermus_win.setActionOnClose(G4P.KEEP_OPEN);
+  Flagermus_win.addDrawHandler(this, "win_draw3");
+  Isbjorn_win = GWindow.getWindow(this, "Isbjørnen", 0, 0, 240, 120, JAVA2D);
+  Isbjorn_win.noLoop();
+  Isbjorn_win.setActionOnClose(G4P.KEEP_OPEN);
+  Isbjorn_win.addDrawHandler(this, "win_draw4");
+  Bjorn_win = GWindow.getWindow(this, "Den brune bjørn", 0, 0, 240, 120, JAVA2D);
+  Bjorn_win.noLoop();
+  Bjorn_win.setActionOnClose(G4P.KEEP_OPEN);
+  Bjorn_win.addDrawHandler(this, "win_draw5");
+  Ulv_win = GWindow.getWindow(this, "Den grå ulv", 0, 0, 240, 120, JAVA2D);
+  Ulv_win.noLoop();
+  Ulv_win.setActionOnClose(G4P.KEEP_OPEN);
+  Ulv_win.addDrawHandler(this, "win_draw6");
+  Love_win = GWindow.getWindow(this, "Window title", 0, 0, 240, 120, JAVA2D);
+  Love_win.noLoop();
+  Love_win.setActionOnClose(G4P.KEEP_OPEN);
+  Love_win.addDrawHandler(this, "win_draw7");
+  Kamel_win = GWindow.getWindow(this, "Kamelen", 0, 0, 240, 120, JAVA2D);
+  Kamel_win.noLoop();
+  Kamel_win.setActionOnClose(G4P.KEEP_OPEN);
+  Kamel_win.addDrawHandler(this, "win_draw8");
+  Panda_win = GWindow.getWindow(this, "Pandaen", 0, 0, 240, 120, JAVA2D);
+  Panda_win.noLoop();
+  Panda_win.setActionOnClose(G4P.KEEP_OPEN);
+  Panda_win.addDrawHandler(this, "win_draw9");
+  Bavian_win = GWindow.getWindow(this, "Bavianen", 0, 0, 240, 120, JAVA2D);
+  Bavian_win.noLoop();
+  Bavian_win.setActionOnClose(G4P.KEEP_OPEN);
+  Bavian_win.addDrawHandler(this, "win_draw10");
+  Rensdyr_win = GWindow.getWindow(this, "Rensdyret", 0, 0, 240, 120, JAVA2D);
+  Rensdyr_win.noLoop();
+  Rensdyr_win.setActionOnClose(G4P.KEEP_OPEN);
+  Rensdyr_win.addDrawHandler(this, "win_draw11");
+  Sal_win = GWindow.getWindow(this, "Sælen", 0, 0, 240, 120, JAVA2D);
+  Sal_win.noLoop();
+  Sal_win.setActionOnClose(G4P.KEEP_OPEN);
+  Sal_win.addDrawHandler(this, "win_draw12");
+  Gibbon_win = GWindow.getWindow(this, "Den hvidhåndede gibbon", 0, 0, 240, 120, JAVA2D);
+  Gibbon_win.noLoop();
+  Gibbon_win.setActionOnClose(G4P.KEEP_OPEN);
+  Gibbon_win.addDrawHandler(this, "win_draw13");
+  Lemur_win = GWindow.getWindow(this, "Lemuren", 0, 0, 240, 120, JAVA2D);
+  Lemur_win.noLoop();
+  Lemur_win.setActionOnClose(G4P.KEEP_OPEN);
+  Lemur_win.addDrawHandler(this, "win_draw14");
+  Flamingo_win.loop();
+  Stork_win.loop();
+  Flagermus_win.loop();
+  Isbjorn_win.loop();
+  Bjorn_win.loop();
+  Ulv_win.loop();
+  Love_win.loop();
+  Kamel_win.loop();
+  Panda_win.loop();
+  Bavian_win.loop();
+  Rensdyr_win.loop();
+  Sal_win.loop();
+  Gibbon_win.loop();
+  Lemur_win.loop();
 }
 
 // Variable declarations 
@@ -139,3 +265,17 @@ GButton Kamel;
 GButton LarGibbon; 
 GButton Lemur; 
 GButton Stork; 
+GWindow Flamingo_win;
+GWindow Stork_win;
+GWindow Flagermus_win;
+GWindow Isbjorn_win;
+GWindow Bjorn_win;
+GWindow Ulv_win;
+GWindow Love_win;
+GWindow Kamel_win;
+GWindow Panda_win;
+GWindow Bavian_win;
+GWindow Rensdyr_win;
+GWindow Sal_win;
+GWindow Gibbon_win;
+GWindow Lemur_win;
