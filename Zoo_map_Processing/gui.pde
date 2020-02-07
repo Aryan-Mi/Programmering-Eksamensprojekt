@@ -38,6 +38,38 @@ public void button1_click6(GButton source, GEvent event) { //_CODE_:Bear:379431:
   println("Bear - GButton >> GEvent." + event + " @ " + millis());
 } //_CODE_:Bear:379431:
 
+public void button1_click7(GButton source, GEvent event) { //_CODE_:Deer:661191:
+  println("button1 - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:Deer:661191:
+
+public void button1_click8(GButton source, GEvent event) { //_CODE_:Seel:952336:
+  println("Seel - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:Seel:952336:
+
+public void button1_click9(GButton source, GEvent event) { //_CODE_:Bat:265536:
+  println("button1 - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:Bat:265536:
+
+public void button1_click10(GButton source, GEvent event) { //_CODE_:Baboon:753847:
+  println("Baboon - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:Baboon:753847:
+
+public void button1_click11(GButton source, GEvent event) { //_CODE_:Kamel:333613:
+  println("Kamel - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:Kamel:333613:
+
+public void button1_click12(GButton source, GEvent event) { //_CODE_:LarGibbon:833434:
+  println("LarGibbon - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:LarGibbon:833434:
+
+public void button1_click13(GButton source, GEvent event) { //_CODE_:Lemur:948172:
+  println("Lemur - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:Lemur:948172:
+
+public void button1_click14(GButton source, GEvent event) { //_CODE_:Stork:992027:
+  println("Stork - GButton >> GEvent." + event + " @ " + millis());
+} //_CODE_:Stork:992027:
+
 
 
 // Create all the GUI controls. 
@@ -62,9 +94,33 @@ public void createGUI(){
   Panda = new GButton(this, 72, 262, 50, 50);
   Panda.setText("Panda");
   Panda.addEventHandler(this, "button1_click5");
-  Bear = new GButton(this, 369, 167, 80, 30);
-  Bear.setText("Face text");
+  Bear = new GButton(this, 331, 128, 50, 50);
+  Bear.setText("Bear");
   Bear.addEventHandler(this, "button1_click6");
+  Deer = new GButton(this, 197, 206, 50, 50);
+  Deer.setText("Deer");
+  Deer.addEventHandler(this, "button1_click7");
+  Seel = new GButton(this, 198, 298, 50, 50);
+  Seel.setText("Seel");
+  Seel.addEventHandler(this, "button1_click8");
+  Bat = new GButton(this, 300, 312, 50, 50);
+  Bat.setText("Bat");
+  Bat.addEventHandler(this, "button1_click9");
+  Baboon = new GButton(this, 350, 312, 50, 50);
+  Baboon.setText("Baboon");
+  Baboon.addEventHandler(this, "button1_click10");
+  Kamel = new GButton(this, 330, 586, 50, 50);
+  Kamel.setText("Kamel");
+  Kamel.addEventHandler(this, "button1_click11");
+  LarGibbon = new GButton(this, 60, 476, 50, 50);
+  LarGibbon.setText("LarGibbon");
+  LarGibbon.addEventHandler(this, "button1_click12");
+  Lemur = new GButton(this, 679, 406, 50, 50);
+  Lemur.setText("Lemur");
+  Lemur.addEventHandler(this, "button1_click13");
+  Stork = new GButton(this, 682, 286, 50, 50);
+  Stork.setText("Stork");
+  Stork.addEventHandler(this, "button1_click14");
 }
 
 // Variable declarations 
@@ -75,3 +131,11 @@ GButton PolarBear;
 GButton Lion; 
 GButton Panda; 
 GButton Bear; 
+GButton Deer; 
+GButton Seel; 
+GButton Bat; 
+GButton Baboon; 
+GButton Kamel; 
+GButton LarGibbon; 
+GButton Lemur; 
+GButton Stork; 
