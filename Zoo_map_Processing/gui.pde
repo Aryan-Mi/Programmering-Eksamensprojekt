@@ -84,12 +84,12 @@ public void button1_click10(GButton source, GEvent event) { //_CODE_:Baboon:7538
   
 } //_CODE_:Baboon:753847:
 
-public void button1_click11(GButton source, GEvent event) { //_CODE_:Kamel:333613:
+public void button1_click11(GButton source, GEvent event) { //_CODE_:Camel:333613:
   println("Kamel - GButton >> GEvent." + event + " @ " + millis());
   
   Kamel_win.setVisible(true);
   
-} //_CODE_:Kamel:333613:
+} //_CODE_:Camel:333613:
 
 public void button1_click12(GButton source, GEvent event) { //_CODE_:LarGibbon:833434:
   println("LarGibbon - GButton >> GEvent." + event + " @ " + millis());
@@ -178,46 +178,46 @@ public void createGUI(){
   G4P.setMouseOverEnabled(false);
   surface.setTitle("Sketch Window");
   Wolves = new GButton(this, 132, 39, 50, 50);
-  Wolves.setText("Wolf");
+  Wolves.setIcon("Wolf.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Wolves.addEventHandler(this, "button1_click1");
   Flamingo = new GButton(this, 729, 446, 50, 50);
-  Flamingo.setText("Flamingo");
+  Flamingo.setIcon("Flamingo 1.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Flamingo.addEventHandler(this, "button1_click2");
   PolarBear = new GButton(this, 582, 333, 50, 50);
-  PolarBear.setText("Polar Bear");
+  PolarBear.setIcon("Polar Bear.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   PolarBear.addEventHandler(this, "button1_click3");
-  Lion = new GButton(this, 453, 455, 50, 50);
-  Lion.setText("Lion");
+  Lion = new GButton(this, 452, 455, 50, 50);
+  Lion.setIcon("Lion.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Lion.addEventHandler(this, "button1_click4");
   Panda = new GButton(this, 98, 289, 50, 50);
-  Panda.setText("Panda");
+  Panda.setIcon("Bear.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Panda.addEventHandler(this, "button1_click5");
   Bear = new GButton(this, 411, 123, 50, 50);
-  Bear.setText("Bear");
+  Bear.setIcon("Brown Bear.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Bear.addEventHandler(this, "button1_click6");
-  Deer = new GButton(this, 255, 205, 50, 50);
-  Deer.setText("Deer");
+  Deer = new GButton(this, 255, 206, 50, 50);
+  Deer.setIcon("Deer.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Deer.addEventHandler(this, "button1_click7");
   Seel = new GButton(this, 255, 305, 50, 50);
-  Seel.setText("Seel");
+  Seel.setIcon("Seal.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Seel.addEventHandler(this, "button1_click8");
   Bat = new GButton(this, 382, 338, 50, 50);
-  Bat.setText("Bat");
+  Bat.setIcon("bat 1.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Bat.addEventHandler(this, "button1_click9");
   Baboon = new GButton(this, 443, 339, 50, 50);
-  Baboon.setText("Baboon");
+  Baboon.setIcon("Baboon.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Baboon.addEventHandler(this, "button1_click10");
-  Kamel = new GButton(this, 420, 630, 50, 50);
-  Kamel.setText("Kamel");
-  Kamel.addEventHandler(this, "button1_click11");
+  Camel = new GButton(this, 420, 630, 50, 50);
+  Camel.setIcon("Camel.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
+  Camel.addEventHandler(this, "button1_click11");
   LarGibbon = new GButton(this, 81, 508, 50, 50);
-  LarGibbon.setText("LarGibbon");
+  LarGibbon.setIcon("Lar Gibbon.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   LarGibbon.addEventHandler(this, "button1_click12");
   Lemur = new GButton(this, 857, 442, 50, 50);
-  Lemur.setText("Lemur");
+  Lemur.setIcon("Lemur.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Lemur.addEventHandler(this, "button1_click13");
   Stork = new GButton(this, 857, 285, 50, 50);
-  Stork.setText("Stork");
+  Stork.setIcon("Stork.png", 1, GAlign.EAST, GAlign.RIGHT, GAlign.MIDDLE);
   Stork.addEventHandler(this, "button1_click14");
   Flamingo_win = GWindow.getWindow(this, "Flamingo", 0, 0, 240, 120, JAVA2D);
   Flamingo_win.noLoop();
@@ -303,7 +303,7 @@ GButton Deer;
 GButton Seel; 
 GButton Bat; 
 GButton Baboon; 
-GButton Kamel; 
+GButton Camel; 
 GButton LarGibbon; 
 GButton Lemur; 
 GButton Stork; 
