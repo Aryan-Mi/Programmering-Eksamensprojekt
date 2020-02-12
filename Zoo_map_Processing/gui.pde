@@ -17,98 +17,98 @@
 public void button1_click1(GButton source, GEvent event) { //_CODE_:Wolves:683552:
   println("Wolves - GButton >> GEvent." + event + " @ " + millis());
  
-  Ulv_win.setVisible(true);
+  Ulv_win.setVisible(true); //If the "Ulv"-button is pressed show the "Ulv" window. 
   
 } //_CODE_:Wolves:683552:
 
 public void button1_click2(GButton source, GEvent event) { //_CODE_:Flamingo:326798:
   println("Flamingo - GButton >> GEvent." + event + " @ " + millis());
   
-  Flamingo_win.setVisible(true);
+  Flamingo_win.setVisible(true); //If the "Flamingo"-button is pressed show the "Flamingo" window. 
   
 } //_CODE_:Flamingo:326798:
 
 public void button1_click3(GButton source, GEvent event) { //_CODE_:PolarBear:665517:
   println("PolarBear - GButton >> GEvent." + event + " @ " + millis());
   
-  Isbjorn_win.setVisible(true);
+  Isbjorn_win.setVisible(true);  //If the "Isbjorn"-button is pressed show the "Isbjorn" window.
   
 } //_CODE_:PolarBear:665517:
 
 public void button1_click4(GButton source, GEvent event) { //_CODE_:Lion:834870:
   println("Lion - GButton >> GEvent." + event + " @ " + millis());
   
-  Love_win.setVisible(true);
+  Love_win.setVisible(true); //If the "Love"-button is pressed show the "Love" window.
   
 } //_CODE_:Lion:834870:
 
 public void button1_click5(GButton source, GEvent event) { //_CODE_:Panda:529088:
   println("Panda - GButton >> GEvent." + event + " @ " + millis());
   
-  Panda_win.setVisible(true);
+  Panda_win.setVisible(true); //If the "Panda"-button is pressed show the "Panda" window.
   
 } //_CODE_:Panda:529088:
 
 public void button1_click6(GButton source, GEvent event) { //_CODE_:Bear:379431:
   println("Bear - GButton >> GEvent." + event + " @ " + millis());
   
-  Bjorn_win.setVisible(true);
+  Bjorn_win.setVisible(true); //If the "Bjorn"-button is pressed show the "Bjorn" window.
   
 } //_CODE_:Bear:379431:
 
 public void button1_click7(GButton source, GEvent event) { //_CODE_:Deer:661191:
   println("button1 - GButton >> GEvent." + event + " @ " + millis());
   
-  Rensdyr_win.setVisible(true);
+  Rensdyr_win.setVisible(true); //If the "Rensdyr"-button is pressed show the "Rensdyr" window.
   
 } //_CODE_:Deer:661191:
 
 public void button1_click8(GButton source, GEvent event) { //_CODE_:Seel:952336:
   println("Seel - GButton >> GEvent." + event + " @ " + millis());
   
-  Sal_win.setVisible(true);
+  Sal_win.setVisible(true); //If the "Sal"-button is pressed show the "Sal" window.
   
 } //_CODE_:Seel:952336:
 
 public void button1_click9(GButton source, GEvent event) { //_CODE_:Bat:265536:
   println("button1 - GButton >> GEvent." + event + " @ " + millis());
   
-  Flagermus_win.setVisible(true);
+  Flagermus_win.setVisible(true); //If the "Flagermus"-button is pressed show the "Flagermus" window.
   
 } //_CODE_:Bat:265536:
 
 public void button1_click10(GButton source, GEvent event) { //_CODE_:Baboon:753847:
   println("Baboon - GButton >> GEvent." + event + " @ " + millis());
   
-  Bavian_win.setVisible(true);
+  Bavian_win.setVisible(true); //If the "Bavian"-button is pressed show the "Bavian" window.
   
 } //_CODE_:Baboon:753847:
 
 public void button1_click11(GButton source, GEvent event) { //_CODE_:Camel:333613:
   println("Kamel - GButton >> GEvent." + event + " @ " + millis());
   
-  Kamel_win.setVisible(true);
+  Kamel_win.setVisible(true); //If the "Kamel"-button is pressed show the "Kamel" window.
   
 } //_CODE_:Camel:333613:
 
 public void button1_click12(GButton source, GEvent event) { //_CODE_:LarGibbon:833434:
   println("LarGibbon - GButton >> GEvent." + event + " @ " + millis());
   
-  Gibbon_win.setVisible(true);
+  Gibbon_win.setVisible(true); //If the "Gibbon"-button is pressed show the "Gibbon" window.
   
 } //_CODE_:LarGibbon:833434:
 
 public void button1_click13(GButton source, GEvent event) { //_CODE_:Lemur:948172:
   println("Lemur - GButton >> GEvent." + event + " @ " + millis());
   
-  Lemur_win.setVisible(true);
+  Lemur_win.setVisible(true); //If the "Lemur"-button is pressed show the "Lemur" window.
   
 } //_CODE_:Lemur:948172:
 
 public void button1_click14(GButton source, GEvent event) { //_CODE_:Stork:992027:
   println("Stork - GButton >> GEvent." + event + " @ " + millis());
   
-  Stork_win.setVisible(true);
+  Stork_win.setVisible(true); //If the "Stork"-button is pressed show the "Stork" window.
   
 } //_CODE_:Stork:992027:
 
