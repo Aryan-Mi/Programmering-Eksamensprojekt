@@ -12,15 +12,16 @@ void getData () { //This function gets the data from the database, so it can be 
 }
 
 class Animals {
-
-
-  class Mammals extends Animals { //Pattedyr
     String Navn;
     String Videnskabeligt_navn;
     int Levealder;
     String Foede;
     int ID;
+
+
+  class Mammals extends Animals { //Pattedyr
   }
+
 
   class Birds extends Animals { //Fugle
   }
